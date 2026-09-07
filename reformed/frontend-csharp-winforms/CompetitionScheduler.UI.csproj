@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\backend-cpp-dll\build\CompetitionSchedulerBackend.dll"
+          Link="CompetitionSchedulerBackend.dll"
+          CopyToOutputDirectory="PreserveNewest"
+          Condition="Exists('..\backend-cpp-dll\build\CompetitionSchedulerBackend.dll')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

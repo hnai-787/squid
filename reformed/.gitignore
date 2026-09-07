@@ -1,0 +1,24 @@
+# C++ backend build outputs
+backend-cpp-dll/build/*.dll
+backend-cpp-dll/build/*.a
+backend-cpp-dll/build/*.exe
+backend-cpp-dll/build/*.o
+backend-cpp-dll/build/*.obj
+
+# C# frontend build outputs
+frontend-csharp-winforms/bin/
+frontend-csharp-winforms/obj/
+
+# Runtime output
+output/*.csv
+output/*.txt
+!output/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store

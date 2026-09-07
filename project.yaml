@@ -1,0 +1,54 @@
+name: Competition Scheduler
+slug: competition-scheduler-cpp
+
+category: software
+subcategory: "Data Structures coursework (CS216)"
+
+status: completed
+
+visibility: public
+
+description:
+  short: "A CTF-style competition bracket scheduler for 16 teams, built around a BST for rankings and a queue for match scheduling."
+  long: |
+    Schedules a 16-team, 15-match single-elimination-style competition
+    (Preliminary → Round 2 → Semi-Finals → Final) using a binary search
+    tree for team ranking and a queue for match ordering. Built for a Data
+    Structures course (Air University, Semester 3, Fall 2024) in three
+    forms: an original C++/CLI + WinForms app, a portable header-only C++
+    class library, and a "reformed" version split into a native C++ backend
+    DLL consumed by a separate C# WinForms frontend via P/Invoke.
+
+technologies: ["C++", "C++/CLI", "C#", ".NET", "WinForms", "P/Invoke"]
+tags: ["software", "data-structures", "cpp", "csharp", "bst", "scheduling"]
+
+repository:
+  provider: github
+  visibility: public
+  sync: true
+
+portfolio:
+  enabled: true
+  featured: false
+
+documentation:
+  readme: true
+  case_study: false
+
+dates:
+  started: null
+  completed: null
+
+links:
+  github: null
+  demo: null
+  documentation: null
+
+assets:
+  hero: null
+  screenshots:
+    - reformed/frontend-csharp-winforms/Resources
+
+achievements: []
+
+metrics: []

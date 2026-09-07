@@ -1,0 +1,16 @@
+Team Alpha, Ayan; Bilal; Hamza, 1
+Team Bravo, Hussain; Jazib; Ahmed, 2
+Team CyberX, Ali; Shehroze; Usman, 3
+Team Delta, Zain; Daniyal; Haris, 4
+Team Eagle, Omer; Saad; Taha, 5
+Team Falcon, Fahad; Nabeel; Rayyan, 6
+Team Ghost, Asad; Ibrahim; Talha, 7
+Team Hunter, Arham; Sameer; Qasim, 8
+Team Iron, Adeel; Basit; Kamil, 9
+Team Jaguar, Faraz; Muneeb; Rafay, 10
+Team Knight, Hassan; Taimoor; Waleed, 11
+Team Lion, Azlan; Danish; Mustafa, 12
+Team Matrix, Huzaifa; Noman; Yasir, 13
+Team Nova, Abdullah; Rehan; Sarmad, 14
+Team Omega, Faisal; Imran; Kashif, 15
+Team Phoenix, Saqlain; Shayan; Zohaib, 16
