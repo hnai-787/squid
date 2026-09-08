@@ -1,5 +1,5 @@
-name: Competition Scheduler
-slug: competition-scheduler-cpp
+name: bracketsched
+slug: bracketsched
 
 category: software
 subcategory: "Data Structures coursework (CS216)"

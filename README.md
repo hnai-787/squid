@@ -1,4 +1,4 @@
-# Competition Scheduler → bracketsched (Deterministic Bracket-Generation Library)
+# bracketsched — Deterministic Bracket-Generation Library
 
 ## Course Information
 
