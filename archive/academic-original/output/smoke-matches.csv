@@ -1,0 +1,16 @@
+MatchNo,Round,Team1No,Team1,Team1Rank,Team2No,Team2,Team2Rank,Date,Time,Status,WinnerNo,Winner
+1,Preliminary Round,1,Team Alpha,1,9,Team Iron,9,2026-07-07,2:00 PM,Completed,9,Team Iron
+2,Preliminary Round,2,Team Bravo,2,10,Team Jaguar,10,2026-07-08,2:00 PM,Completed,2,Team Bravo
+3,Preliminary Round,3,Team CyberX,3,11,Team Knight,11,2026-07-09,2:00 PM,Completed,3,Team CyberX
+4,Preliminary Round,4,Team Delta,4,12,Team Lion,12,2026-07-10,2:00 PM,Completed,4,Team Delta
+5,Preliminary Round,5,Team Eagle,5,13,Team Matrix,13,2026-07-11,2:00 PM,Completed,13,Team Matrix
+6,Preliminary Round,6,Team Falcon,6,14,Team Nova,14,2026-07-12,2:00 PM,Completed,14,Team Nova
+7,Preliminary Round,7,Team Ghost,7,15,Team Omega,15,2026-07-13,2:00 PM,Completed,7,Team Ghost
+8,Preliminary Round,8,Team Hunter,8,16,Team Phoenix,16,2026-07-14,2:00 PM,Completed,8,Team Hunter
+9,Round 2,9,Team Iron,9,2,Team Bravo,2,2026-07-15,2:00 PM,Completed,2,Team Bravo
+10,Round 2,3,Team CyberX,3,4,Team Delta,4,2026-07-16,2:00 PM,Completed,3,Team CyberX
+11,Round 2,13,Team Matrix,13,14,Team Nova,14,2026-07-17,2:00 PM,Completed,14,Team Nova
+12,Round 2,7,Team Ghost,7,8,Team Hunter,8,2026-07-18,2:00 PM,Completed,8,Team Hunter
+13,Semi-Finals,2,Team Bravo,2,3,Team CyberX,3,2026-07-19,2:00 PM,Completed,2,Team Bravo
+14,Semi-Finals,14,Team Nova,14,8,Team Hunter,8,2026-07-20,2:00 PM,Completed,8,Team Hunter
+15,Finals,2,Team Bravo,2,8,Team Hunter,8,2026-07-21,2:00 PM,Completed,8,Team Hunter

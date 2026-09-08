@@ -9,18 +9,23 @@ status: completed
 visibility: public
 
 description:
-  short: "A CTF-style competition bracket scheduler for 16 teams, built around a BST for rankings and a queue for match scheduling."
+  short: "bracketsched: a native C++ library (with a C ABI) for deterministic single- and double-elimination bracket generation for any team count, with a named seeding algorithm and documented invariants."
   long: |
-    Schedules a 16-team, 15-match single-elimination-style competition
-    (Preliminary → Round 2 → Semi-Finals → Final) using a binary search
-    tree for team ranking and a queue for match ordering. Built for a Data
-    Structures course (Air University, Semester 3, Fall 2024) in three
-    forms: an original C++/CLI + WinForms app, a portable header-only C++
-    class library, and a "reformed" version split into a native C++ backend
-    DLL consumed by a separate C# WinForms frontend via P/Invoke.
+    Started as a Data Structures course project (Air University, Semester
+    3, Fall 2024) that scheduled a fixed 16-team bracket via a BST
+    (rankings) and queue (match order), in three parallel implementations.
+    Rebuilt into bracketsched: a small embeddable library for arbitrary
+    -size single- and double-elimination brackets. Implements the real
+    "inner-outer" seeding algorithm (not bit-reversal), automatic
+    mathematically-correct top-seed byes for non-power-of-two team counts,
+    a named double-elimination cross-bracketing policy (alternating) and
+    Grand Final reset semantics, deterministic canonical JSON output, and
+    a stable JSON-based C ABI verified against an independent consumer
+    program. All three original implementations preserved unmodified
+    under archive/academic-original/.
 
-technologies: ["C++", "C++/CLI", "C#", ".NET", "WinForms", "P/Invoke"]
-tags: ["software", "data-structures", "cpp", "csharp", "bst", "scheduling"]
+technologies: ["C++", "C++20", "CMake", "nlohmann-json", "Catch2", "C ABI"]
+tags: ["software", "data-structures", "cpp", "scheduling", "tournament-brackets", "embeddable-library", "cli-tool"]
 
 repository:
   provider: github
@@ -51,4 +56,13 @@ assets:
 
 achievements: []
 
-metrics: []
+metrics:
+  - label: "Unit tests passing (Catch2)"
+    value: "391/391 assertions (25 test cases)"
+    verified: true
+  - label: "8-team double-elimination structure vs. hand-derived reference"
+    value: "exact match (15 matches: 7 WB + 6 LB + 2 GF)"
+    verified: true
+  - label: "C ABI verified from an independent external consumer program"
+    value: "pass (dynamic link against libbracketsched_capi.dll, correct JSON returned)"
+    verified: true

@@ -1,0 +1,10 @@
+{
+  "participants": [
+    {"seed": 1, "name": "Alpha"}, {"seed": 2, "name": "Bravo"},
+    {"seed": 3, "name": "Charlie"}, {"seed": 4, "name": "Delta"},
+    {"seed": 5, "name": "Echo"}, {"seed": 6, "name": "Foxtrot"},
+    {"seed": 7, "name": "Golf"}, {"seed": 8, "name": "Hotel"}
+  ],
+  "format": "double",
+  "grand_final": "reset"
+}
