@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Configures and builds bracketsched with CMake + MinGW g++, reusing the
 # vcpkg instance at C:/vcpkg (nlohmann-json, Catch2) set up for the
-# sibling firewall-rule-engine-cpp project.
+# sibling Penumbra project.
 set -euo pipefail
 
 cd "$(dirname "$0")"

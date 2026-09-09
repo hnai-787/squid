@@ -1,6 +1,8 @@
-# bracketsched — Deterministic Bracket-Generation Library
+# Squid — Deterministic Tournament Bracket Generation Library
 
-![bracketsched banner](assets/brand/bracketsched-readme-banner.png)
+![squid banner](assets/brand/squid-readme-banner.png)
+
+*Ships as the `bracketsched` CLI/library — see below.*
 
 
 ## Course Information
@@ -151,7 +153,7 @@ Future Enhancements, not implemented as a partial/untested stand-in.
 
 ## How It Works
 
-![How bracketsched works](assets/brand/bracketsched-how-it-works.png)
+![How squid works](assets/brand/squid-how-it-works.png)
 
 ## Repository Structure
 

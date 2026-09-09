@@ -1,5 +1,5 @@
-name: bracketsched
-slug: bracketsched
+name: Squid
+slug: squid
 
 category: software
 subcategory: "Data Structures coursework (CS216)"
@@ -45,12 +45,12 @@ dates:
   completed: null
 
 links:
-  github: https://github.com/Hussain-Ali-787/bracketsched
+  github: https://github.com/Hussain-Ali-787/squid
   demo: null
   documentation: null
 
 assets:
-  hero: assets/brand/bracketsched-readme-banner.png
+  hero: assets/brand/squid-readme-banner.png
   screenshots:
     - reformed/frontend-csharp-winforms/Resources
 
