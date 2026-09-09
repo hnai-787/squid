@@ -50,7 +50,7 @@ links:
   documentation: null
 
 assets:
-  hero: null
+  hero: assets/brand/bracketsched-readme-banner.png
   screenshots:
     - reformed/frontend-csharp-winforms/Resources
 

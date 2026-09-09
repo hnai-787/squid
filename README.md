@@ -1,5 +1,8 @@
 # bracketsched — Deterministic Bracket-Generation Library
 
+![bracketsched banner](assets/brand/bracketsched-readme-banner.png)
+
+
 ## Course Information
 
 | Field | Details |
@@ -145,6 +148,10 @@ Future Enhancements, not implemented as a partial/untested stand-in.
   -verified against the research's worked 8-team example), Grand Final
   conditional semantics, and a permanent regression test for the
   bye-propagation bug described above.
+
+## How It Works
+
+![How bracketsched works](assets/brand/bracketsched-how-it-works.png)
 
 ## Repository Structure
 
