@@ -17,7 +17,7 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 - Rebuilt as **bracketsched**, a deterministic bracket-generation library,
   consolidating the three original parallel implementations (preserved
-  unmodified under `archive/academic-original/`).
+  unmodified under `archive/original/`).
 - Generalized from a fixed 16 teams to any team count >= 2.
 - Real "inner-outer" (recursive reflection) seed placement algorithm,
   with automatic, mathematically-correct top-seed byes for

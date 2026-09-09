@@ -5,19 +5,10 @@
 *Ships as the `bracketsched` CLI/library — see below.*
 
 
-## Course Information
-
-| Field | Details |
-|---|---|
-| Course | Data Structures (CS216) |
-| Semester | Semester 3 — Fall 2024 |
-| University | Air University, Islamabad |
-| Students | Syed Jazib Ali Rizvi (232145), Hussain Ali (232095), Muhammad Abdullah Haroon (232992) |
-
 The three original implementations (a C++/CLI + WinForms app, a
 header-only class library, and a native-DLL + C# frontend architecture)
 are preserved unmodified under
-[`archive/academic-original/`](archive/academic-original/).
+[`archive/original/`](archive/original/).
 
 ## Overview
 
@@ -166,8 +157,8 @@ competition-scheduler-cpp/
   src/                    implementations + main.cpp (CLI) + capi.cpp
   tests/                  25 Catch2 test cases
   examples/eight-teams.json
-  archive/academic-original/   all three original implementations, untouched
-  shared-data/, docs/, output/   original coursework artifacts
+  archive/original/   all three original implementations, untouched
+  shared-data/, docs/, output/   original artifacts
   project.yaml
 ```
 
@@ -243,7 +234,7 @@ GF-R2-M1: winner(WB-R3-M1) vs winner(LB-R4-M1)   (conditional: only if the LB si
 2. Run `./build.sh` then `./build/bracketsched_tests.exe` — 25 test cases,
    all passing.
 3. Run the worked example above and compare against the structure quoted here.
-4. Compare against `archive/academic-original/` for the three original variants.
+4. Compare against `archive/original/` for the three original variants.
 
 ## Testing
 
@@ -257,11 +248,11 @@ against `libbracketsched_capi.dll` (dynamic linking, separate compilation
 unit) and confirmed it receives correct, valid canonical JSON back through
 the C ABI — the "embeddable" claim is checked, not assumed.
 
-## Original Results (academic artifact)
+## Original Results (original artifact)
 
 The 16-team fixed bracket from all three original implementations is
 reproduced exactly by `generateBracket` with 16 participants and
-`Format::Single` (15 matches, `N-1`). See `archive/academic-original/`
+`Format::Single` (15 matches, `N-1`). See `archive/original/`
 for the original BST/queue-based code and `docs/Report.docx` for the
 original writeup.
 
@@ -301,7 +292,7 @@ original writeup.
 - No real secrets, credentials, or private keys are included.
 - No private user data is included. `shared-data/Teams.txt` mixes
   classmates' first names into fictional bracket data from the original
-  coursework submission — left as-is per this workspace's established
+  original submission — left as-is per this workspace's established
   policy for group-project attribution (low-severity: first names only,
   not presented as real personal records).
 
@@ -309,5 +300,5 @@ original writeup.
 
 This project performs only in-memory bracket-structure generation — no
 network access, no real player data beyond first names already present in
-the original coursework submission. Intended for learning and for
+the original submission. Intended for learning and for
 embedding in other tools.

@@ -34,7 +34,7 @@ into this workspace as an independent project on 2026-09-07.
 ### What changed and why
 
 The "remaining work" note above was acted on: all three variants are now
-consolidated (archived unmodified under `archive/academic-original/`)
+consolidated (archived unmodified under `archive/original/`)
 into one library, generalized from a fixed 16 teams to any team count,
 and reframed around a defensible library identity ("deterministic bracket
 generation," not "yet another bracket app") following a research pass

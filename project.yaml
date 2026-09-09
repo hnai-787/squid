@@ -2,7 +2,7 @@ name: Squid
 slug: squid
 
 category: software
-subcategory: "Data Structures coursework (CS216)"
+subcategory: "Data Structures"
 
 status: completed
 
@@ -11,8 +11,8 @@ visibility: public
 description:
   short: "bracketsched: a native C++ library (with a C ABI) for deterministic single- and double-elimination bracket generation for any team count, with a named seeding algorithm and documented invariants."
   long: |
-    Started as a Data Structures course project (Air University, Semester
-    3, Fall 2024) that scheduled a fixed 16-team bracket via a BST
+    Started as a small Data Structures project that scheduled a fixed
+    16-team bracket via a BST
     (rankings) and queue (match order), in three parallel implementations.
     Rebuilt into bracketsched: a small embeddable library for arbitrary
     -size single- and double-elimination brackets. Implements the real
@@ -22,7 +22,7 @@ description:
     Grand Final reset semantics, deterministic canonical JSON output, and
     a stable JSON-based C ABI verified against an independent consumer
     program. All three original implementations preserved unmodified
-    under archive/academic-original/.
+    under archive/original/.
 
 technologies: ["C++", "C++20", "CMake", "nlohmann-json", "Catch2", "C ABI"]
 tags: ["software", "data-structures", "cpp", "scheduling", "tournament-brackets", "embeddable-library", "cli-tool"]
