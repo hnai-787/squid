@@ -149,7 +149,7 @@ Future Enhancements, not implemented as a partial/untested stand-in.
 ## Repository Structure
 
 ```text
-competition-scheduler-cpp/
+squid/
   README.md, PROJECT_NOTES.md, CHANGELOG.md
   CMakeLists.txt, build.sh
   include/bracketsched/   types, seeding, generator, serialize
